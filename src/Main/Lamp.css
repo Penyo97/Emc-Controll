@@ -1,0 +1,17 @@
+.Lamp {
+  height: 300px;
+}
+.Lamp__Container {
+  position: absolute;
+  right: 0;
+  z-index: 5;
+}
+.Lamp__yellow {
+  fill: #ffe66d;
+}
+.Lamp__black {
+  fill: #7083a6;
+}
+.Lamp__red {
+  fill: #d98285;
+}

@@ -1,0 +1,24 @@
+.Elecricity {
+  background-color: #e1e1e1;
+}
+.Elecricity__Container {
+  display: flex;
+  justify-content: space-around;
+  color: #1b1b1e;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Elecricity__Text {
+  width: 70%;
+  padding-left: 25px;
+  text-align: justify;
+}
+.Elecricity__Text > h2 {
+  padding-top: 15px;
+}
+.Elecricity__Text > h1 {
+  color: #93061a;
+}
+.Elecricity__Img {
+  height: 250px;
+}

@@ -1,0 +1,29 @@
+.Reference__Container {
+  background-color: #e1e1e1;
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-around;
+  color: #1b1b1e;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Reference__Text {
+  width: 70%;
+  padding-left: 10px;
+  text-align: justify;
+}
+.Reference__Text > h1 {
+  color: #93061a;
+}
+.Reference__Text > h2 {
+  padding-top: 10px;
+}
+.Reference__Text > h2:last-child {
+  padding-bottom: 10px;
+}
+.bolt {
+  color: #93061a;
+}
+.book {
+  height: 250px;
+}

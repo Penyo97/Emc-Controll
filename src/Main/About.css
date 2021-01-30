@@ -1,0 +1,21 @@
+.About__container {
+  background-color: #1b1b1e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+.About__Text {
+  text-align: justify;
+  color: #eaeaea;
+  width: 70%;
+}
+.About__PictureText {
+  text-align: center;
+  color: #eaeaea;
+  padding: 5px;
+}
+.About__ImgContainer {
+  margin-top: 25px;
+}

@@ -1,0 +1,22 @@
+.Loader {
+  background-color: #1b1b1e;
+  display: grid;
+  height: 100vh;
+  align-items: center;
+}
+.white {
+  width: 56%;
+  overflow: visible;
+  stroke: #eaeaea;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.red {
+  width: 56%;
+  overflow: visible;
+  stroke: #93061a;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}

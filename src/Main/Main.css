@@ -1,0 +1,97 @@
+.Main__container {
+  background-color: #1b1b1e;
+}
+.Main__img {
+  position: relative;
+}
+.Main__Button {
+  position: fixed !important;
+  bottom: 2%;
+  right: 1%;
+  z-index: 999;
+  width: 45px !important;
+  height: 45px !important;
+  border: 2px solid #93061a !important;
+  color: #93061a !important;
+  display: none !important;
+}
+.visible {
+  display: block !important;
+  transition: all 2s;
+}
+.Main__Button:hover {
+  background-color: #93061a !important;
+  color: #1b1b1e !important;
+}
+.MuiButton-root {
+  min-width: 0px !important;
+}
+.lig1 {
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  left: 117px;
+  z-index: 10;
+  transform: rotate(20deg);
+  animation: lig1 2s infinite;
+}
+.lig2 {
+  height: 30px;
+  position: absolute;
+  top: 28px;
+  left: 128px;
+  z-index: 10;
+  transform: rotate(60deg);
+  animation: lig2 2s infinite 1s;
+}
+.lig3 {
+  height: 30px;
+  position: absolute;
+  top: 45px;
+  left: 120px;
+  z-index: 10;
+  transform: rotate(50deg);
+  animation: lig3 2s infinite 0.5s;
+}
+@keyframes lig1 {
+  from {
+    top: 15px;
+    left: 117px;
+    transform: rotate(20deg);
+    opacity: 1;
+  }
+  to {
+    top: 10px;
+    left: 128px;
+    transform: rotate(60deg);
+    opacity: 0;
+  }
+}
+@keyframes lig2 {
+  from {
+    top: 28px;
+    left: 128px;
+    transform: rotate(60deg);
+    opacity: 1;
+  }
+  to {
+    top: 20px;
+    left: 140px;
+    transform: rotate(100deg);
+    opacity: 0;
+  }
+}
+@keyframes lig3 {
+  from {
+    top: 45px;
+    left: 120px;
+    transform: rotate(50deg);
+    opacity: 1;
+  }
+  to {
+    top: 38px;
+    left: 132px;
+    transform: rotate(80deg);
+    opacity: 0;
+  }
+}

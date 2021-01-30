@@ -1,0 +1,31 @@
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer__logo {
+  width: 200px;
+}
+.footer__copy {
+  flex: 1;
+  padding-left: 20px;
+  color: #e1e1e1;
+}
+.footer__text {
+  flex: 2;
+  text-align: right;
+  margin-right: 20px;
+  padding-right: 30px;
+  color: #e1e1e1;
+  position: relative;
+}
+.footer__text > h1 > span {
+  padding-top: 10px;
+  padding-right: 10px;
+  transition: all 0.5s;
+}
+.footer__text > h1 > span:hover {
+  color: #93061a;
+}

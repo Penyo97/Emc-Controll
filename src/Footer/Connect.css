@@ -1,0 +1,19 @@
+.connect__container {
+  color: #e1e1e1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.connect__text > h3 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.connect__icon {
+  font-size: x-large;
+  padding-right: 10px;
+}
+.connect__map {
+  width: 350px;
+}

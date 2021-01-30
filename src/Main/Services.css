@@ -1,0 +1,43 @@
+.Services__Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.Services__Text {
+  width: 80%;
+  color: #e1e1e1;
+  background: rgba(192, 191, 191, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px;
+  z-index: 50;
+  font-weight: 900;
+}
+.Services__Options {
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Service__More {
+  padding-top: 5px;
+}
+.Service__Img {
+  height: 420px;
+  position: absolute;
+  left: 0;
+  bottom: 6%;
+  transform: rotate(0deg);
+  z-index: 2;
+  opacity: 0;
+  transition: all 3s;
+}
+.ImgDisplay {
+  opacity: 1;
+  transform: rotate(45deg);
+}

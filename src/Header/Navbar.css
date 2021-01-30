@@ -1,0 +1,38 @@
+.Navbar__container {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  justify-content: space-between;
+  transition: all 1s;
+  z-index: 999;
+}
+.Navbar__black {
+  transition: all 1s;
+  background-color: #1b1b1e;
+}
+.Navbar__logo {
+  width: 200px;
+  object-fit: contain;
+}
+.Navbar__menu {
+  color: #93061a !important;
+  font-size: 2.5rem !important;
+}
+.Navbar__menubox {
+  padding-right: 20px;
+  transition: all 3s linear;
+}
+.Navbar__menu:hover {
+  transform: scale(1.1);
+}
+.MuiDrawer-paper {
+  background-color: #1b1b1e !important;
+}
+.MuiListItem-root {
+  color: #93061a !important;
+}
+.MuiListItem-root:hover {
+  color: #a4161a !important;
+}
